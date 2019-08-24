@@ -71,7 +71,6 @@ Factory class can be used to create an injectable bean of third party class.
 public class BeanFactory {
 
     @BlinkBean
-    @TpBean
     AmazonS3 provideAmazonS3(ApplicationConfiguration configuration){
         return AmazonS3ClientBuilder.standard().withRegion(configuration.getAwsRegionName()).build();
     }
