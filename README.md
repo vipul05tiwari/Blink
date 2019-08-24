@@ -1,5 +1,5 @@
 # Blink
-Blink is a light weight and fast dependency injection framework. Blink uses [classindex](https://github.com/atteo/classindex) and [jgrapht](https://github.com/jgrapht/jgrapht) to manage dependency.
+Blink is a lightweight and fast dependency injection framework. Blink uses [classindex](https://github.com/atteo/classindex) and [jgrapht](https://github.com/jgrapht/jgrapht) to manage dependency.
 
 In order to make class injectable class need to be annotated with `@BlinkService`
 
@@ -40,21 +40,21 @@ public class Application {
 }
 ```
 
-Blink supports following feature
+Blink supports the following feature
 * Setter Injection
 * Constructor Injection
 * Bean Factory
 * Auto property load
 
 #### Setter Injection
-For setter injection field needs to be annotated with `@BlinkInject`.
+For a setter, injection field needs to be annotated with `@BlinkInject`.
 
 ```java
     @BlinkInject
     private SetterDependency setterDependency;
 ```
 #### Constructor Injection
-For Constructor Injection Constructor needs to be annotated with `@BlinkInject`.
+For a Constructor, Injection Constructor needs to be annotated with `@BlinkInject`.
 
 ```java
     @BlinkInject
@@ -64,7 +64,7 @@ For Constructor Injection Constructor needs to be annotated with `@BlinkInject`.
 ```
 
 #### Bean Factory
-Factory class can be used to create injectable bean of third party class.
+Factory class can be used to create an injectable bean of third party class.
 
 ```java
 @BlinkFactory
@@ -79,7 +79,7 @@ public class BeanFactory {
 ```    
 
 #### Auto property load
-Blink can automatically load appliaction configuaration and map them to java bean.
+Blink can automatically load application configuration and map them to java bean.
 
 ```java
 @BlinkConfiguration(filename = "application.properties") //application.properties should be available in class path
