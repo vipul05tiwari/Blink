@@ -5,7 +5,7 @@
 
     <groupId>com.github.vipul05tiwari</groupId>
     <artifactId>blink</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -237,7 +237,7 @@
         <connection>scm:git:git://github.com/vipul05tiwari/Blink.git</connection>
         <developerConnection>scm:git:git@github.com:vipul05tiwari/Blink.git</developerConnection>
         <url>https://github.com/vipul05tiwari/Blink</url>
-        <tag>HEAD</tag>
+        <tag>blink-1.0.2</tag>
     </scm>
 
     <profiles>
