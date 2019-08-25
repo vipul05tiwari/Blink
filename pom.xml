@@ -206,10 +206,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
-                    <version>2.10.4</version>
-                    <configuration>
-                        <encoding>UTF-8</encoding>
-                    </configuration>
+                    <version>3.0.1</version>
                     <executions>
                     <execution>
                     <id>attach-javadoc</id>
